@@ -1,0 +1,10 @@
+|SR_LATCH_EN
+S => process_0.IN0
+S => process_0.IN0
+R => process_0.IN1
+R => process_0.IN1
+En => q_reg.IN1
+Q <= q_reg.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= q_reg.DB_MAX_OUTPUT_PORT_TYPE
+
+

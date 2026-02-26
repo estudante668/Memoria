@@ -1,0 +1,9 @@
+|SR_EN_LATCH_FISICO
+S => S_g.IN0
+R => R_g.IN0
+En => S_g.IN1
+En => R_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= qn_int.DB_MAX_OUTPUT_PORT_TYPE
+
+

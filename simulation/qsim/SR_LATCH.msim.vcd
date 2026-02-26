@@ -1,0 +1,56 @@
+$comment
+	File created using the following command:
+		vcd file SR_LATCH.msim.vcd -direction
+$end
+$date
+	Thu Feb 26 15:51:53 2026
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module SR_LATCH_vlg_vec_tst $end
+$var reg 1 ! R $end
+$var reg 1 " S $end
+$var wire 1 # Q $end
+$var wire 1 $ Qn $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + Q~output_o $end
+$var wire 1 , Qn~output_o $end
+$var wire 1 - S~input_o $end
+$var wire 1 . R~input_o $end
+$var wire 1 / q_int~0_combout $end
+$var wire 1 0 qn_int~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+1"
+0#
+0$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+0,
+1-
+1.
+1/
+10
+$end
+#1000000

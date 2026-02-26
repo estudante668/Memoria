@@ -360,8 +360,118 @@ R46
 !i113 1
 R6
 R26
+vSR_EN_LATCH_FISICO
+Z47 !s110 1772137513
+!i10b 1
+!s100 j>dF0;gF684b;X<IROkLO0
+IkIY`PYHId?]`j]okDI^UI1
+R2
+R0
+w1772137512
+8SR_EN_LATCH_FISICO.vo
+FSR_EN_LATCH_FISICO.vo
+R3
+R4
+r1
+!s85 0
+31
+Z48 !s108 1772137513.000000
+!s107 SR_EN_LATCH_FISICO.vo|
+!s90 -work|work|SR_EN_LATCH_FISICO.vo|
+!i113 1
+R6
+R7
+n@s@r_@e@n_@l@a@t@c@h_@f@i@s@i@c@o
+vSR_EN_LATCH_FISICO_vlg_vec_tst
+R47
+!i10b 1
+!s100 ;JoQ0NjQa`ne0ill?870z1
+ITHQ@Jl_K7QL3i7F8[B<943
+R2
+R0
+w1772137510
+8Waveform14.vwf.vt
+FWaveform14.vwf.vt
+R8
+R4
+r1
+!s85 0
+31
+R48
+!s107 Waveform14.vwf.vt|
+!s90 -work|work|Waveform14.vwf.vt|
+!i113 1
+R6
+R7
+n@s@r_@e@n_@l@a@t@c@h_@f@i@s@i@c@o_vlg_vec_tst
+vSR_LATCH
+Z49 !s110 1772131913
+!i10b 1
+!s100 Lhj;nEioekl2FLTUfjLC_3
+InKgMZmJg_5Vl=hMUE1PXG2
+R2
+R0
+w1772131912
+8SR_LATCH.vo
+FSR_LATCH.vo
+R3
+R4
+r1
+!s85 0
+31
+Z50 !s108 1772131913.000000
+!s107 SR_LATCH.vo|
+!s90 -work|work|SR_LATCH.vo|
+!i113 1
+R6
+R7
+n@s@r_@l@a@t@c@h
+vSR_LATCH_EN
+Z51 !s110 1772135473
+!i10b 1
+!s100 gNTk=^AVm8e=5WmgE4>Sc2
+I2zEcMmkY<c3KUoBSRn^UP1
+R2
+R0
+w1772135472
+8SR_LATCH_EN.vo
+FSR_LATCH_EN.vo
+R3
+R4
+r1
+!s85 0
+31
+Z52 !s108 1772135473.000000
+!s107 SR_LATCH_EN.vo|
+!s90 -work|work|SR_LATCH_EN.vo|
+!i113 1
+R6
+R7
+n@s@r_@l@a@t@c@h_@e@n
+vSR_LATCH_EN_vlg_vec_tst
+R51
+!i10b 1
+!s100 n4Mi^1zQWECbcR04hh5n:3
+If3GeH_W4Ci1[jW_?LVXER2
+R2
+R0
+w1772135471
+8Waveform13.vwf.vt
+FWaveform13.vwf.vt
+R8
+R4
+r1
+!s85 0
+31
+R52
+!s107 Waveform13.vwf.vt|
+!s90 -work|work|Waveform13.vwf.vt|
+!i113 1
+R6
+R7
+n@s@r_@l@a@t@c@h_@e@n_vlg_vec_tst
 Esr_latch_sclock
-Z47 w1772052813
+Z53 w1772052813
 R12
 R13
 R14
@@ -370,19 +480,19 @@ R16
 R17
 R18
 R0
-Z48 8SR_LATCH_SCLOCK.vho
-Z49 FSR_LATCH_SCLOCK.vho
+Z54 8SR_LATCH_SCLOCK.vho
+Z55 FSR_LATCH_SCLOCK.vho
 l0
 L36
 VZKn0M1T;CQ>27E_OXRS5G0
 !s100 YBD2?Ul<aNTR6gb6EfXg?1
 R21
 32
-Z50 !s110 1772052814
+Z56 !s110 1772052814
 !i10b 1
-Z51 !s108 1772052814.000000
-Z52 !s90 -work|work|SR_LATCH_SCLOCK.vho|
-Z53 !s107 SR_LATCH_SCLOCK.vho|
+Z57 !s108 1772052814.000000
+Z58 !s90 -work|work|SR_LATCH_SCLOCK.vho|
+Z59 !s107 SR_LATCH_SCLOCK.vho|
 !i113 1
 R6
 R26
@@ -401,16 +511,16 @@ V1MRgL4;of?o^8ieh2J2Mz2
 !s100 LOefPz[2oA>D>[TfoBC`g0
 R21
 32
-R50
+R56
 !i10b 1
-R51
-R52
-R53
+R57
+R58
+R59
 !i113 1
 R6
 R26
 vSR_LATCH_SCLOCK
-Z54 !s110 1772052837
+Z60 !s110 1772052837
 !i10b 1
 !s100 XjUef=Pg?4K]m5z77[LdS3
 IEG0Ua02Oe5WTnFT0Di5@b1
@@ -424,7 +534,7 @@ R4
 r1
 !s85 0
 31
-Z55 !s108 1772052837.000000
+Z61 !s108 1772052837.000000
 !s107 SR_LATCH_SCLOCK.vo|
 !s90 -work|work|SR_LATCH_SCLOCK.vo|
 !i113 1
@@ -432,23 +542,23 @@ R6
 R7
 n@s@r_@l@a@t@c@h_@s@c@l@o@c@k
 Esr_latch_sclock_vhd_vec_tst
-Z56 w1772052811
+Z62 w1772052811
 R16
 R17
 R0
-Z57 8Waveform8.vwf.vht
-Z58 FWaveform8.vwf.vht
+Z63 8Waveform8.vwf.vht
+Z64 FWaveform8.vwf.vht
 l0
 L31
 ViOU86d:abJQ;<kYB_><VH3
 !s100 dMIWG5h9hX=l:Q3k8<ncS1
 R21
 32
-R50
+R56
 !i10b 1
-R51
-Z59 !s90 -work|work|Waveform8.vwf.vht|
-Z60 !s107 Waveform8.vwf.vht|
+R57
+Z65 !s90 -work|work|Waveform8.vwf.vht|
+Z66 !s107 Waveform8.vwf.vht|
 !i113 1
 R6
 R26
@@ -462,16 +572,16 @@ VQT[<7nzj^Ice=LA9UWF;P3
 !s100 lLK5:mVK8_g`3`l1iGYDI3
 R21
 32
-R50
+R56
 !i10b 1
-R51
-R59
-R60
+R57
+R65
+R66
 !i113 1
 R6
 R26
 vSR_LATCH_SCLOCK_vlg_vec_tst
-R54
+R60
 !i10b 1
 !s100 `Z4Lo>16Fm=gMXFTL2`oF0
 ILBM8YRK>OP<fe]<5CP;lE2
@@ -485,10 +595,32 @@ R4
 r1
 !s85 0
 31
-R55
+R61
 !s107 Waveform8.vwf.vt|
 !s90 -work|work|Waveform8.vwf.vt|
 !i113 1
 R6
 R7
 n@s@r_@l@a@t@c@h_@s@c@l@o@c@k_vlg_vec_tst
+vSR_LATCH_vlg_vec_tst
+R49
+!i10b 1
+!s100 AS0S3cD553zaj6Io?cZO31
+IU9mMQ26cWWIDe:9>BXMfE1
+R2
+R0
+w1772131910
+8Waveform12.vwf.vt
+FWaveform12.vwf.vt
+R8
+R4
+r1
+!s85 0
+31
+R50
+!s107 Waveform12.vwf.vt|
+!s90 -work|work|Waveform12.vwf.vt|
+!i113 1
+R6
+R7
+n@s@r_@l@a@t@c@h_vlg_vec_tst

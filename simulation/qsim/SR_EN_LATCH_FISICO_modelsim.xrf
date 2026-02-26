@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Port_Logic_Memory/SR_EN_LATCH_FISICO.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Port_Logic_Memory/db/SR_EN_LATCH_FISICO.cbx.xml
+design_name = SR_EN_LATCH_FISICO
+instance = comp, \Q~output , Q~output, SR_EN_LATCH_FISICO, 1
+instance = comp, \Qn~output , Qn~output, SR_EN_LATCH_FISICO, 1
+instance = comp, \R~input , R~input, SR_EN_LATCH_FISICO, 1
+instance = comp, \En~input , En~input, SR_EN_LATCH_FISICO, 1
+instance = comp, \S~input , S~input, SR_EN_LATCH_FISICO, 1
+instance = comp, \q_int~0 , q_int~0, SR_EN_LATCH_FISICO, 1
+instance = comp, \qn_int~0 , qn_int~0, SR_EN_LATCH_FISICO, 1
