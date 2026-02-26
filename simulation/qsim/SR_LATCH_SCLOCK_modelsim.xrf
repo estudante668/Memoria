@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Port_Logic_Memory/SR_LATCH_SCLOCK.vhd
+source_file = 1, C:/Port_Logic_Memory/Waveform8.vwf
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Port_Logic_Memory/db/SR_LATCH_SCLOCK.cbx.xml
+design_name = SR_LATCH_SCLOCK
+instance = comp, \Q~output , Q~output, SR_LATCH_SCLOCK, 1
+instance = comp, \Q_Bar~output , Q_Bar~output, SR_LATCH_SCLOCK, 1
+instance = comp, \R~input , R~input, SR_LATCH_SCLOCK, 1
+instance = comp, \S~input , S~input, SR_LATCH_SCLOCK, 1
+instance = comp, \TQ~0 , TQ~0, SR_LATCH_SCLOCK, 1
+instance = comp, \TQ_Bar~0 , TQ_Bar~0, SR_LATCH_SCLOCK, 1

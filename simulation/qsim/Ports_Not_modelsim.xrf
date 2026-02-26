@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Port_Logic_Memory/Ports_Not.vhd
+source_file = 1, C:/Port_Logic_Memory/Waveform4.vwf
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Port_Logic_Memory/db/Ports_Not.cbx.xml
+design_name = Ports_Not
+instance = comp, \y[0]~output\, y[0]~output, Ports_Not, 1
+instance = comp, \y[1]~output\, y[1]~output, Ports_Not, 1
+instance = comp, \y[2]~output\, y[2]~output, Ports_Not, 1
+instance = comp, \y[3]~output\, y[3]~output, Ports_Not, 1
+instance = comp, \a[0]~input\, a[0]~input, Ports_Not, 1
+instance = comp, \a[1]~input\, a[1]~input, Ports_Not, 1
+instance = comp, \a[2]~input\, a[2]~input, Ports_Not, 1
+instance = comp, \a[3]~input\, a[3]~input, Ports_Not, 1

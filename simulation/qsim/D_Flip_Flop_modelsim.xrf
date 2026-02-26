@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Port_Logic_Memory/D_Flip_Flop.vhd
+source_file = 1, C:/Port_Logic_Memory/Waveform6.vwf
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Port_Logic_Memory/db/D_Flip_Flop.cbx.xml
+design_name = D_Flip_Flop
+instance = comp, \Q~output , Q~output, D_Flip_Flop, 1
+instance = comp, \Q_n~output , Q_n~output, D_Flip_Flop, 1
+instance = comp, \CLK~input , CLK~input, D_Flip_Flop, 1
+instance = comp, \D~input , D~input, D_Flip_Flop, 1
+instance = comp, \Mestre|q_int~0 , Mestre|q_int~0, D_Flip_Flop, 1
+instance = comp, \Escravo|q_int~0 , Escravo|q_int~0, D_Flip_Flop, 1
+instance = comp, \Escravo|qb_int~0 , Escravo|qb_int~0, D_Flip_Flop, 1

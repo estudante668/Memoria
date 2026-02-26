@@ -1,0 +1,9 @@
+|Latch_SR
+D => s_internal.IN0
+D => r_internal.IN0
+CLK => s_internal.IN1
+CLK => r_internal.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q_bar <= qbar_int.DB_MAX_OUTPUT_PORT_TYPE
+
+

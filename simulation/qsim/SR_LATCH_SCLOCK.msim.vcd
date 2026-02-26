@@ -1,0 +1,56 @@
+$comment
+	File created using the following command:
+		vcd file SR_LATCH_SCLOCK.msim.vcd -direction
+$end
+$date
+	Wed Feb 25 17:53:57 2026
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module SR_LATCH_SCLOCK_vlg_vec_tst $end
+$var reg 1 ! R $end
+$var reg 1 " S $end
+$var wire 1 # Q $end
+$var wire 1 $ Q_Bar $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + Q~output_o $end
+$var wire 1 , Q_Bar~output_o $end
+$var wire 1 - R~input_o $end
+$var wire 1 . S~input_o $end
+$var wire 1 / TQ~0_combout $end
+$var wire 1 0 TQ_Bar~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+1"
+x#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+x+
+x,
+1-
+1.
+x/
+x0
+$end
+#1000000

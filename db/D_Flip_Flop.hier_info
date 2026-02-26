@@ -1,0 +1,26 @@
+|D_Flip_Flop
+D => d_latch:Mestre.D
+CLK => d_latch:Escravo.CLK
+CLK => d_latch:Mestre.CLK
+Q << d_latch:Escravo.Q
+Q_n << d_latch:Escravo.Q_bar
+
+
+|D_Flip_Flop|D_LATCH:Mestre
+D => s_int.IN0
+D => r_int.IN0
+CLK => s_int.IN1
+CLK => r_int.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q_bar <= qb_int.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|D_Flip_Flop|D_LATCH:Escravo
+D => s_int.IN0
+D => r_int.IN0
+CLK => s_int.IN1
+CLK => r_int.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q_bar <= qb_int.DB_MAX_OUTPUT_PORT_TYPE
+
+

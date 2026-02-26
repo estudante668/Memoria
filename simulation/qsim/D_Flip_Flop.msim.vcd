@@ -1,0 +1,262 @@
+$comment
+	File created using the following command:
+		vcd file D_Flip_Flop.msim.vcd -direction
+$end
+$date
+	Wed Feb 25 18:05:05 2026
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module D_Flip_Flop_vlg_vec_tst $end
+$var reg 1 ! CLK $end
+$var reg 1 " D $end
+$var wire 1 # Q $end
+$var wire 1 $ Q_n $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + Q~output_o $end
+$var wire 1 , Q_n~output_o $end
+$var wire 1 - CLK~input_o $end
+$var wire 1 . D~input_o $end
+$var wire 1 / Mestre|q_int~0_combout $end
+$var wire 1 0 Escravo|q_int~0_combout $end
+$var wire 1 1 Escravo|qb_int~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1#
+0$
+0%
+1&
+x'
+1(
+1)
+1*
+1+
+0,
+0-
+0.
+1/
+00
+11
+$end
+#25000
+1!
+1-
+10
+0+
+01
+0#
+1,
+1$
+#50000
+0!
+0-
+#75000
+1!
+1-
+#100000
+1"
+0!
+1.
+0-
+0/
+#125000
+1!
+1-
+11
+00
+1+
+0,
+0$
+1#
+#150000
+0!
+0-
+#175000
+1!
+1-
+#200000
+0"
+0!
+0.
+0-
+1/
+#225000
+1!
+1-
+10
+0+
+01
+0#
+1,
+1$
+#250000
+0!
+0-
+#275000
+1!
+1-
+#300000
+1"
+0!
+1.
+0-
+0/
+#325000
+1!
+1-
+11
+00
+1+
+0,
+0$
+1#
+#350000
+0!
+0-
+#375000
+1!
+1-
+#400000
+0"
+0!
+0.
+0-
+1/
+#425000
+1!
+1-
+10
+0+
+01
+0#
+1,
+1$
+#450000
+0!
+0-
+#475000
+1!
+1-
+#500000
+1"
+0!
+1.
+0-
+0/
+#525000
+1!
+1-
+11
+00
+1+
+0,
+0$
+1#
+#550000
+0!
+0-
+#575000
+1!
+1-
+#600000
+0"
+0!
+0.
+0-
+1/
+#625000
+1!
+1-
+10
+0+
+01
+0#
+1,
+1$
+#650000
+0!
+0-
+#675000
+1!
+1-
+#700000
+1"
+0!
+1.
+0-
+0/
+#725000
+1!
+1-
+11
+00
+1+
+0,
+0$
+1#
+#750000
+0!
+0-
+#775000
+1!
+1-
+#800000
+0"
+0!
+0.
+0-
+1/
+#825000
+1!
+1-
+10
+0+
+01
+0#
+1,
+1$
+#850000
+0!
+0-
+#875000
+1!
+1-
+#900000
+1"
+0!
+1.
+0-
+0/
+#925000
+1!
+1-
+11
+00
+1+
+0,
+0$
+1#
+#950000
+0!
+0-
+#975000
+1!
+1-
+#1000000

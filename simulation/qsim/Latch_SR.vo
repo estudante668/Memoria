@@ -1,0 +1,160 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
+
+// DATE "02/25/2026 16:08:31"
+
+// 
+// Device: Altera 5CGXFC7C7F23C8 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module Latch_SR (
+	D,
+	CLK,
+	Q,
+	Q_bar);
+input 	D;
+input 	CLK;
+output 	Q;
+output 	Q_bar;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \Q~output_o ;
+wire \Q_bar~output_o ;
+wire \D~input_o ;
+wire \CLK~input_o ;
+wire \q_int~0_combout ;
+wire \qbar_int~0_combout ;
+
+
+cyclonev_io_obuf \Q~output (
+	.i(!\q_int~0_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Q~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Q~output .bus_hold = "false";
+defparam \Q~output .open_drain_output = "false";
+defparam \Q~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \Q_bar~output (
+	.i(!\qbar_int~0_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Q_bar~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Q_bar~output .bus_hold = "false";
+defparam \Q_bar~output .open_drain_output = "false";
+defparam \Q_bar~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_ibuf \D~input (
+	.i(D),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\D~input_o ));
+// synopsys translate_off
+defparam \D~input .bus_hold = "false";
+defparam \D~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \CLK~input (
+	.i(CLK),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\CLK~input_o ));
+// synopsys translate_off
+defparam \CLK~input .bus_hold = "false";
+defparam \CLK~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_lcell_comb \q_int~0 (
+// Equation(s):
+// \q_int~0_combout  = (!\CLK~input_o  & (\q_int~0_combout )) # (\CLK~input_o  & ((!\D~input_o )))
+
+	.dataa(!\q_int~0_combout ),
+	.datab(!\D~input_o ),
+	.datac(!\CLK~input_o ),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\q_int~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \q_int~0 .extended_lut = "off";
+defparam \q_int~0 .lut_mask = 64'h5C5C5C5C5C5C5C5C;
+defparam \q_int~0 .shared_arith = "off";
+// synopsys translate_on
+
+cyclonev_lcell_comb \qbar_int~0 (
+// Equation(s):
+// \qbar_int~0_combout  = (!\q_int~0_combout ) # ((\D~input_o  & \CLK~input_o ))
+
+	.dataa(!\q_int~0_combout ),
+	.datab(!\D~input_o ),
+	.datac(!\CLK~input_o ),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\qbar_int~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \qbar_int~0 .extended_lut = "off";
+defparam \qbar_int~0 .lut_mask = 64'hABABABABABABABAB;
+defparam \qbar_int~0 .shared_arith = "off";
+// synopsys translate_on
+
+assign Q = \Q~output_o ;
+
+assign Q_bar = \Q_bar~output_o ;
+
+endmodule

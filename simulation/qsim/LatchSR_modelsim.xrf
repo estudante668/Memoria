@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Port_Logic_Memory/LatchSR.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Port_Logic_Memory/db/LatchSR.cbx.xml
+design_name = LatchSR
+instance = comp, \Q~output , Q~output, LatchSR, 1
+instance = comp, \S~input , S~input, LatchSR, 1
+instance = comp, \R~input , R~input, LatchSR, 1

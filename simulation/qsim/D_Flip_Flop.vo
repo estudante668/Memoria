@@ -1,0 +1,184 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
+
+// DATE "02/25/2026 18:05:03"
+
+// 
+// Device: Altera 5CGXFC7C7F23C8 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module D_Flip_Flop (
+	D,
+	CLK,
+	Q,
+	Q_n);
+input 	D;
+input 	CLK;
+output 	Q;
+output 	Q_n;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \Q~output_o ;
+wire \Q_n~output_o ;
+wire \CLK~input_o ;
+wire \D~input_o ;
+wire \Mestre|q_int~0_combout ;
+wire \Escravo|q_int~0_combout ;
+wire \Escravo|qb_int~0_combout ;
+
+
+cyclonev_io_obuf \Q~output (
+	.i(!\Escravo|q_int~0_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Q~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Q~output .bus_hold = "false";
+defparam \Q~output .open_drain_output = "false";
+defparam \Q~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \Q_n~output (
+	.i(!\Escravo|qb_int~0_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Q_n~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Q_n~output .bus_hold = "false";
+defparam \Q_n~output .open_drain_output = "false";
+defparam \Q_n~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_ibuf \CLK~input (
+	.i(CLK),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\CLK~input_o ));
+// synopsys translate_off
+defparam \CLK~input .bus_hold = "false";
+defparam \CLK~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \D~input (
+	.i(D),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\D~input_o ));
+// synopsys translate_off
+defparam \D~input .bus_hold = "false";
+defparam \D~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_lcell_comb \Mestre|q_int~0 (
+// Equation(s):
+// \Mestre|q_int~0_combout  = (!\CLK~input_o  & ((!\D~input_o ))) # (\CLK~input_o  & (\Mestre|q_int~0_combout ))
+
+	.dataa(!\CLK~input_o ),
+	.datab(!\Mestre|q_int~0_combout ),
+	.datac(!\D~input_o ),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\Mestre|q_int~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \Mestre|q_int~0 .extended_lut = "off";
+defparam \Mestre|q_int~0 .lut_mask = 64'hB1B1B1B1B1B1B1B1;
+defparam \Mestre|q_int~0 .shared_arith = "off";
+// synopsys translate_on
+
+cyclonev_lcell_comb \Escravo|q_int~0 (
+// Equation(s):
+// \Escravo|q_int~0_combout  = (!\CLK~input_o  & (\Escravo|q_int~0_combout )) # (\CLK~input_o  & ((\Mestre|q_int~0_combout )))
+
+	.dataa(!\Escravo|q_int~0_combout ),
+	.datab(!\CLK~input_o ),
+	.datac(!\Mestre|q_int~0_combout ),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\Escravo|q_int~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \Escravo|q_int~0 .extended_lut = "off";
+defparam \Escravo|q_int~0 .lut_mask = 64'h4747474747474747;
+defparam \Escravo|q_int~0 .shared_arith = "off";
+// synopsys translate_on
+
+cyclonev_lcell_comb \Escravo|qb_int~0 (
+// Equation(s):
+// \Escravo|qb_int~0_combout  = (!\Escravo|q_int~0_combout ) # ((\CLK~input_o  & !\Mestre|q_int~0_combout ))
+
+	.dataa(!\Escravo|q_int~0_combout ),
+	.datab(!\CLK~input_o ),
+	.datac(!\Mestre|q_int~0_combout ),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\Escravo|qb_int~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \Escravo|qb_int~0 .extended_lut = "off";
+defparam \Escravo|qb_int~0 .lut_mask = 64'hBABABABABABABABA;
+defparam \Escravo|qb_int~0 .shared_arith = "off";
+// synopsys translate_on
+
+assign Q = \Q~output_o ;
+
+assign Q_n = \Q_n~output_o ;
+
+endmodule

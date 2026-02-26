@@ -1,0 +1,494 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Port_Logic_Memory/simulation/qsim
+vD_Flip_Flop
+Z1 !s110 1772053504
+!i10b 1
+!s100 caEGbZTb?V12=J[G:ldNf1
+IMd_n>k3?39QV@LMmVVco^3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1772053503
+8D_Flip_Flop.vo
+FD_Flip_Flop.vo
+Z3 L0 31
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1772053504.000000
+!s107 D_Flip_Flop.vo|
+!s90 -work|work|D_Flip_Flop.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@d_@flip_@flop
+vD_Flip_Flop_vlg_vec_tst
+R1
+!i10b 1
+!s100 I5dfLRk`5YX3YYaGF]h>W0
+I]FJ@0A0^hW;Md@]3O^<l60
+R2
+R0
+w1772053502
+8Waveform9.vwf.vt
+FWaveform9.vwf.vt
+Z8 L0 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform9.vwf.vt|
+!s90 -work|work|Waveform9.vwf.vt|
+!i113 1
+R6
+R7
+n@d_@flip_@flop_vlg_vec_tst
+vD_LATCH
+Z9 !s110 1772128524
+!i10b 1
+!s100 Q7GlHU4F8Je@WGD9[@Q202
+Ia?VfU9EShfliRcA1Rj=2>1
+R2
+R0
+w1772128523
+8D_LATCH.vo
+FD_LATCH.vo
+R3
+R4
+r1
+!s85 0
+31
+Z10 !s108 1772128524.000000
+!s107 D_LATCH.vo|
+!s90 -work|work|D_LATCH.vo|
+!i113 1
+R6
+R7
+n@d_@l@a@t@c@h
+vD_LATCH_vlg_vec_tst
+R9
+!i10b 1
+!s100 KRjO2OZLmTefo[DeR=S3l1
+I99PDTQj26E98_U1UiH2d43
+R2
+R0
+w1772128522
+8Waveform11.vwf.vt
+FWaveform11.vwf.vt
+R8
+R4
+r1
+!s85 0
+31
+R10
+!s107 Waveform11.vwf.vt|
+!s90 -work|work|Waveform11.vwf.vt|
+!i113 1
+R6
+R7
+n@d_@l@a@t@c@h_vlg_vec_tst
+Elatch_sr
+Z11 w1771845525
+Z12 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z13 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 OGn598C_0mX<WSGfCb?AK2
+Z14 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z15 DPx8 cyclonev 19 cyclonev_components 0 22 CcdNAEi>PYH4@n><]NQ]V2
+Z16 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z17 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z18 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 QZo1Vh6en2ZO3=hNmAfQ>0
+R0
+Z19 8Latch_SR.vho
+Z20 FLatch_SR.vho
+l0
+L36
+VmK6;j5AoEf2PSkPc?o@Ih0
+!s100 08Kka:SFKoFeT[c7K`Ghf1
+Z21 OV;C;10.5b;63
+32
+Z22 !s110 1771845538
+!i10b 1
+Z23 !s108 1771845537.000000
+Z24 !s90 -work|work|Latch_SR.vho|
+Z25 !s107 Latch_SR.vho|
+!i113 1
+R6
+Z26 tExplicit 1 CvgOpt 0
+Astructure
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+DEx4 work 8 latch_sr 0 22 mK6;j5AoEf2PSkPc?o@Ih0
+l70
+L45
+V:Q6>NoX70jk@b=Q[WVDC43
+!s100 N<kFG@?SQUH^[N[PHhLLg2
+R21
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R6
+R26
+vLatch_SR
+Z27 !s110 1772046519
+!i10b 1
+!s100 45zUWh?EP5T7ITPeE60[B3
+IFemN:lnfAC?K4MGGmPI<O2
+R2
+R0
+w1772046512
+8Latch_SR.vo
+FLatch_SR.vo
+R3
+R4
+r1
+!s85 0
+31
+Z28 !s108 1772046519.000000
+!s107 Latch_SR.vo|
+!s90 -work|work|Latch_SR.vo|
+!i113 1
+R6
+R7
+n@latch_@s@r
+Elatch_sr_vhd_vec_tst
+Z29 w1771845523
+R16
+R17
+R0
+Z30 8Waveform.vwf.vht
+Z31 FWaveform.vwf.vht
+l0
+L31
+V65zNEQGmFZRWzEM2Ck@PM3
+!s100 ZQhNWY`jA<6mOXO<<DKTf1
+R21
+32
+R22
+!i10b 1
+Z32 !s108 1771845538.000000
+Z33 !s90 -work|work|Waveform.vwf.vht|
+Z34 !s107 Waveform.vwf.vht|
+!i113 1
+R6
+R26
+Alatch_sr_arch
+R16
+R17
+DEx4 work 20 latch_sr_vhd_vec_tst 0 22 65zNEQGmFZRWzEM2Ck@PM3
+l48
+L33
+Vbona2@1:3H9dciQnA1<UU2
+!s100 MRT1l^N>1k8YFNPCIBMEo0
+R21
+32
+R22
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R6
+R26
+vLatch_SR_vlg_vec_tst
+R27
+!i10b 1
+!s100 9jRE4khd5<@_DSh?6IIiU0
+IG81:Rjdj8i``j]>PdOMoJ1
+R2
+R0
+w1772046509
+8Waveform7.vwf.vt
+FWaveform7.vwf.vt
+R8
+R4
+r1
+!s85 0
+31
+R28
+!s107 Waveform7.vwf.vt|
+!s90 -work|work|Waveform7.vwf.vt|
+!i113 1
+R6
+R7
+n@latch_@s@r_vlg_vec_tst
+vLatchSR
+!s110 1772107730
+!i10b 1
+!s100 IH?VF0DilSCDNGM=oYf0P0
+IH_6mA;1S[E<4PlgfkiR]O2
+R2
+R0
+w1772107729
+8LatchSR.vo
+FLatchSR.vo
+R3
+R4
+r1
+!s85 0
+31
+!s108 1772107730.000000
+!s107 LatchSR.vo|
+!s90 -work|work|LatchSR.vo|
+!i113 1
+R6
+R7
+n@latch@s@r
+vLatchSR_vlg_vec_tst
+!s110 1772107731
+!i10b 1
+!s100 jNQMFMM_bGnP_QM7l<j:?2
+I]VED@z5O=N8=Gah2<<Z1C1
+R2
+R0
+w1772107728
+8Waveform10.vwf.vt
+FWaveform10.vwf.vt
+R8
+R4
+r1
+!s85 0
+31
+!s108 1772107731.000000
+!s107 Waveform10.vwf.vt|
+!s90 -work|work|Waveform10.vwf.vt|
+!i113 1
+R6
+R7
+n@latch@s@r_vlg_vec_tst
+Eports_not
+Z35 w1771877936
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+R0
+Z36 8Ports_Not.vho
+Z37 FPorts_Not.vho
+l0
+L36
+V:;R@<T=Yg@`@bYJFi6<bg3
+!s100 bg5mn1T_0GIbm1M]kJJL52
+R21
+32
+Z38 !s110 1771877937
+!i10b 1
+Z39 !s108 1771877937.000000
+Z40 !s90 -work|work|Ports_Not.vho|
+Z41 !s107 Ports_Not.vho|
+!i113 1
+R6
+R26
+Astructure
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+DEx4 work 9 ports_not 0 22 :;R@<T=Yg@`@bYJFi6<bg3
+l68
+L43
+VlQo]V=kDYbW698MFSefYW1
+!s100 SQXS^K]bikW:3IzOYnTaS1
+R21
+32
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R6
+R26
+Eports_not_vhd_vec_tst
+Z42 w1771877934
+R16
+R17
+R0
+Z43 8Waveform5.vwf.vht
+Z44 FWaveform5.vwf.vht
+l0
+L31
+VIXBo4BE5;kVz<V_KES?d_0
+!s100 z^jAo8208HWf`J4]SJhe>1
+R21
+32
+R38
+!i10b 1
+R39
+Z45 !s90 -work|work|Waveform5.vwf.vht|
+Z46 !s107 Waveform5.vwf.vht|
+!i113 1
+R6
+R26
+Aports_not_arch
+R16
+R17
+DEx4 work 21 ports_not_vhd_vec_tst 0 22 IXBo4BE5;kVz<V_KES?d_0
+l44
+L33
+V8egeCT45OZoXIcCDWzS`N0
+!s100 d3o4Ta:Yh;QXbc2IObRzd0
+R21
+32
+R38
+!i10b 1
+R39
+R45
+R46
+!i113 1
+R6
+R26
+Esr_latch_sclock
+Z47 w1772052813
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+R0
+Z48 8SR_LATCH_SCLOCK.vho
+Z49 FSR_LATCH_SCLOCK.vho
+l0
+L36
+VZKn0M1T;CQ>27E_OXRS5G0
+!s100 YBD2?Ul<aNTR6gb6EfXg?1
+R21
+32
+Z50 !s110 1772052814
+!i10b 1
+Z51 !s108 1772052814.000000
+Z52 !s90 -work|work|SR_LATCH_SCLOCK.vho|
+Z53 !s107 SR_LATCH_SCLOCK.vho|
+!i113 1
+R6
+R26
+Astructure
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+DEx4 work 15 sr_latch_sclock 0 22 ZKn0M1T;CQ>27E_OXRS5G0
+l70
+L45
+V1MRgL4;of?o^8ieh2J2Mz2
+!s100 LOefPz[2oA>D>[TfoBC`g0
+R21
+32
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R6
+R26
+vSR_LATCH_SCLOCK
+Z54 !s110 1772052837
+!i10b 1
+!s100 XjUef=Pg?4K]m5z77[LdS3
+IEG0Ua02Oe5WTnFT0Di5@b1
+R2
+R0
+w1772052836
+8SR_LATCH_SCLOCK.vo
+FSR_LATCH_SCLOCK.vo
+R3
+R4
+r1
+!s85 0
+31
+Z55 !s108 1772052837.000000
+!s107 SR_LATCH_SCLOCK.vo|
+!s90 -work|work|SR_LATCH_SCLOCK.vo|
+!i113 1
+R6
+R7
+n@s@r_@l@a@t@c@h_@s@c@l@o@c@k
+Esr_latch_sclock_vhd_vec_tst
+Z56 w1772052811
+R16
+R17
+R0
+Z57 8Waveform8.vwf.vht
+Z58 FWaveform8.vwf.vht
+l0
+L31
+ViOU86d:abJQ;<kYB_><VH3
+!s100 dMIWG5h9hX=l:Q3k8<ncS1
+R21
+32
+R50
+!i10b 1
+R51
+Z59 !s90 -work|work|Waveform8.vwf.vht|
+Z60 !s107 Waveform8.vwf.vht|
+!i113 1
+R6
+R26
+Asr_latch_sclock_arch
+R16
+R17
+DEx4 work 27 sr_latch_sclock_vhd_vec_tst 0 22 iOU86d:abJQ;<kYB_><VH3
+l48
+L33
+VQT[<7nzj^Ice=LA9UWF;P3
+!s100 lLK5:mVK8_g`3`l1iGYDI3
+R21
+32
+R50
+!i10b 1
+R51
+R59
+R60
+!i113 1
+R6
+R26
+vSR_LATCH_SCLOCK_vlg_vec_tst
+R54
+!i10b 1
+!s100 `Z4Lo>16Fm=gMXFTL2`oF0
+ILBM8YRK>OP<fe]<5CP;lE2
+R2
+R0
+w1772052834
+8Waveform8.vwf.vt
+FWaveform8.vwf.vt
+R8
+R4
+r1
+!s85 0
+31
+R55
+!s107 Waveform8.vwf.vt|
+!s90 -work|work|Waveform8.vwf.vt|
+!i113 1
+R6
+R7
+n@s@r_@l@a@t@c@h_@s@c@l@o@c@k_vlg_vec_tst

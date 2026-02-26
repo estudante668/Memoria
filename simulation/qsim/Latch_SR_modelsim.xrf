@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Port_Logic_Memory/Latch_SR.vhd
+source_file = 1, C:/Port_Logic_Memory/Waveform.vwf
+source_file = 1, C:/Port_Logic_Memory/Waveform1.vwf
+source_file = 1, C:/Port_Logic_Memory/Waveform2.vwf
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Port_Logic_Memory/db/Latch_SR.cbx.xml
+design_name = Latch_SR
+instance = comp, \Q~output , Q~output, Latch_SR, 1
+instance = comp, \Q_bar~output , Q_bar~output, Latch_SR, 1
+instance = comp, \D~input , D~input, Latch_SR, 1
+instance = comp, \CLK~input , CLK~input, Latch_SR, 1
+instance = comp, \q_int~0 , q_int~0, Latch_SR, 1
+instance = comp, \qbar_int~0 , qbar_int~0, Latch_SR, 1

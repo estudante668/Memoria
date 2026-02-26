@@ -1,0 +1,38 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity D_LATCH is
+    Port (
+        D     : in  STD_LOGIC;  -- Dado (o que guardar)
+        CLK   : in  STD_LOGIC;  -- Clock/Enable (quando guardar)
+        Q     : out STD_LOGIC;
+        Q_bar : out STD_LOGIC
+    );
+end D_LATCH;
+
+architecture Behavioral of D_LATCH is
+    -- Sinais que representam a saída das portas AND internas (S e R)
+    signal s_internal    : STD_LOGIC;
+    signal r_internal    : STD_LOGIC;
+    
+    -- Sinais para a realimentação (o "coração" biestável)
+    signal q_int         : STD_LOGIC;
+    signal qbar_int      : STD_LOGIC;
+begin
+
+    -- Lógica de Controle: Converte D e CLK em sinais de Set e Reset
+    -- Se CLK = 1, S e R dependem de D. Se CLK = 0, S e R são 0 (Memória)
+    s_internal <= D and CLK;
+    r_internal <= (not D) and CLK;
+
+    -- Núcleo Biestável (Portas NOR cruzadas que você já tinha)
+    -- Importante: Em VHDL de baixo nível, a ordem das equações não importa, 
+    -- pois são atribuições concorrentes.
+    q_int    <= not (r_internal or qbar_int);
+    qbar_int <= not (s_internal or q_int);
+
+    -- Saídas Finais
+    Q     <= q_int;
+    Q_bar <= qbar_int;
+
+end Behavioral;
